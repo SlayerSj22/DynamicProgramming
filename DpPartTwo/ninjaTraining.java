@@ -1,7 +1,8 @@
 package DpPartTwo;
 import java.util.*;
-class Solution{
-    public int maximumPoints(int points[][],int N){
+
+class ninjaTraining{
+ public int maximumPoints(int points[][],int N){
        int dp[][]=new int[N][4];
        for(int a[]:dp)
        Arrays.fill(a,-1);
@@ -32,5 +33,4 @@ class Solution{
 
         return dp[day][last] = ans;
     }
-
 }
